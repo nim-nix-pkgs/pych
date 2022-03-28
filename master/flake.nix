@@ -11,7 +11,6 @@
   inputs.src-pych-master.ref   = "refs/heads/master";
   inputs.src-pych-master.owner = "rburmorrison";
   inputs.src-pych-master.repo  = "pych";
-  inputs.src-pych-master.dir   = "";
   inputs.src-pych-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
